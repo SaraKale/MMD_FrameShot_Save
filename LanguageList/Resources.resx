@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShortcutKeysText" xml:space="preserve">
+    <value>Key</value>
+    <comment>快捷键</comment>
+  </data>
+  <data name="SingleFrameText" xml:space="preserve">
+    <value>Single Save</value>
+    <comment>仅单帧保存</comment>
+  </data>
+  <data name="ResolutionTipText" xml:space="preserve">
+    <value>resolution</value>
+    <comment>当前分辨率</comment>
+  </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>Language</value>
+    <comment>界面语言</comment>
+  </data>
+  <data name="FrameRangeText" xml:space="preserve">
+    <value>Frame</value>
+    <comment>连续帧</comment>
+  </data>
+  <data name="FrameRangeTipText" xml:space="preserve">
+    <value>If using consecutive frames, please use the+button to obtain coordinates before entering frames</value>
+    <comment>连续帧提示</comment>
+  </data>
+  <data name="FileNameText" xml:space="preserve">
+    <value>File Name</value>
+    <comment>文件名前缀</comment>
+  </data>
+  <data name="ImageTypeText" xml:space="preserve">
+    <value>ImageType</value>
+    <comment>文件类型</comment>
+  </data>
+  <data name="OutPutText" xml:space="preserve">
+    <value>Path</value>
+    <comment>导出路径</comment>
+  </data>
+  <data name="DelayTimeText" xml:space="preserve">
+    <value>WaitingTime</value>
+    <comment>保存等待时间</comment>
+  </data>
+  <data name="SaveAfterFolderText" xml:space="preserve">
+    <value>Automatically open the folder after saving</value>
+    <comment>保存后自动打开文件夹</comment>
+  </data>
+  <data name="TabPage1Text" xml:space="preserve">
+    <value>Start</value>
+    <comment>开始标签</comment>
+  </data>
+  <data name="TabPage2Text" xml:space="preserve">
+    <value>Settings</value>
+    <comment>设置标签</comment>
+  </data>
+  <data name="FrameClearText" xml:space="preserve">
+    <value>Clear</value>
+    <comment>连续帧清除按钮</comment>
+  </data>
+  <data name="FinalSaveButtonText" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存按钮</comment>
+  </data>
+  <data name="OutPathButtonText" xml:space="preserve">
+    <value>Open</value>
+    <comment>导出按钮-浏览</comment>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>MMD FrameShot Save</value>
+    <comment>标题</comment>
+  </data>
+  <data name="MMDNotrunning" xml:space="preserve">
+    <value>MMD is not running.</value>
+    <comment>MikuMikuDance未运行</comment>
+  </data>
+  <data name="CurrentFrameViewText" xml:space="preserve">
+    <value>Current Frame: {0}  </value>
+    <comment>当前帧数：</comment>
+  </data>
+  <data name="ReadFail" xml:space="preserve">
+    <value>Read Fail</value>
+    <comment>读取失败</comment>
+  </data>
+  <data name="HotkeyConflictMsg" xml:space="preserve">
+    <value>This button will conflict with the MMD menu, please replace it with another button.</value>
+    <comment>这个按键与MMD菜单会有冲突，请更换其他按键。</comment>
+  </data>
+  <data name="HotkeyConflictTitle" xml:space="preserve">
+    <value>Shortcut key conflict</value>
+    <comment>快捷键冲突</comment>
+  </data>
+  <data name="EnsurePathPrefixType" xml:space="preserve">
+    <value>Make sure you have selected the path, filename prefix and image format!</value>
+    <comment>请确保已选择路径、文件名前缀和图片格式！</comment>
+  </data>
+  <data name="PathEmpty" xml:space="preserve">
+    <value>The export path is empty, please select the export path first!</value>
+    <comment>导出路径为空，请先选择导出路径！</comment>
+  </data>
+  <data name="LogSaving" xml:space="preserve">
+    <value>Saving:{0}</value>
+    <comment>正在保存</comment>
+  </data>
+  <data name="LogSaveSuccess" xml:space="preserve">
+    <value>File saved successfully!</value>
+    <comment>文件保存成功！</comment>
+  </data>
+  <data name="LogSavePath" xml:space="preserve">
+    <value>The file is saved in:{0}</value>
+    <comment>文件保存在：</comment>
+  </data>
+  <data name="LogSaveFail" xml:space="preserve">
+    <value>The file was not saved successfully, maybe the input failed or the path is wrong.</value>
+    <comment>文件未保存成功，可能输入失败或路径有误。</comment>
+  </data>
+  <data name="LogNoFrame" xml:space="preserve">
+    <value>Failed to get current frame number, frame number will be ignored and saved.</value>
+    <comment>未能获取当前帧数，将忽略帧号保存。</comment>
+  </data>
+  <data name="StopSaveButtonText" xml:space="preserve">
+    <value>Stop</value>
+    <comment>暂停</comment>
+  </data>
+  <data name="TopMostText" xml:space="preserve">
+    <value>Window Topping</value>
+    <comment>窗口置顶</comment>
+  </data>
+  <data name="TopMostTipText" xml:space="preserve">
+    <value>Window Topping</value>
+    <comment>窗口置顶</comment>
+  </data>
+  <data name="LogKillProcessException" xml:space="preserve">
+    <value>Exception occurred while terminating process: {0}</value>
+    <comment>终止进程时发生异常</comment>
+  </data>
+  <data name="TabPage3Text" xml:space="preserve">
+    <value>Tip</value>
+    <comment>小提示标签</comment>
+  </data>
+  <data name="PromptContentText" xml:space="preserve">
+    <value>MMD FrameShot Save
+by:SaraKale
+
+This is a small tool for quickly saving images in MMD, saving the tedious process of manually saving images.
+
+Operating system requirements: Windows 7 SP1 and higher system versions
+
+Main features:
+1.  realistic simulation button saves images and can be configured with shortcut button binding.
+2. Customizable file names, image file types, and export paths, as well as additional image compression processing.
+3. Multiple images can be saved within a continuous frame range.
+4. Program multi language interface switching.
+
+1. Simply run the MMD FrameShot Save.exe program.
+Please note that only MikuMikuDance versions 9.26 and above are supported, and lower versions are not supported.
+MikuMikuDance distinguishes between 32-bit and 64 bit versions, please choose the corresponding version.
+X32/MMD FrameShot Save_x32.exe corresponds to MikuMikuDance x86/x32 bit program
+X64/MMD FrameShot Save_x64.exe corresponds to the MikuMikuDance x64bit program
+How Do I know which platform my MMD is on? Right-click the task manager in the system taskbar, click“Details”, right-click“Select column” in the column heading, select“Platform” and the platform option will appear, go down to the Mikumikudance process and you'll see which platform it corresponds to.
+
+2. The default language is English. You can switch to your favorite language by selecting Language in the upper right corner.
+There is a "↑" top button on the right side. When the program is first launched, it defaults to automatic top setting, with a constant blue light. You can manually click the button to cancel the top setting.
+
+3. At this point, the current resolution and frame rate of the MikuMikuDance window will be read. If there are no values, it doesn't matter, it's just for reference.Exporting images will not include frame numbers.
+
+4. Please first set the file name prefix, file type, and export path in the "Settings" tab.
+After setting up, a config. ini configuration file will be generated in the program directory, which will automatically record the settings. The next time you open the program, the saved settings will be read.
+The file naming format is as follows:
+[File prefix] _ [frame rate] _ [date time] _ [serial number] [Extension]
+Example:
+Camera_frame01_20250101_001.png
+The file types that MMD supports for exporting are:
+bmp、jpg、png、dds、dib、pfm、hdr
+
+5. The save waiting time is the delay after each save, and it is recommended to set it to 5000ms or more, as MMD saves images slowly and can be adjusted moderately according to the running speed of your machine.
+The time conversion is as follows:
+1000ms = 1s
+5000ms = 5s
+60000ms = 60s
+In addition, the timeline of MMD can be set to a maximum of 300000 frames per second (approximately 1 hour and 40 minutes, calculated at 30FPS).
+
+6. Shortcut keys
+You can customize shortcut keys, only supporting Ctrl/Alt/Shift+letter/function keys, etc. Be careful not to conflict with existing shortcut keys in the MMD menu bar. If there is a conflict, you can replace other keys.
+This is the existing button for MMD:
+Alt+F、Alt+D、Alt+V、Alt+B、Alt+M、Alt+P、Alt+K、Alt+H
+
+7. Automatically open folder after saving:
+After successful saving, the exported folder will be automatically opened.
+
+8. Only single frame saving
+Checking this option will disable the continuous frame function and only be used for saving a single image.
+
+9. Continuous frames
+This is a frame setting that allows you to set the range from the start frame to the end frame. If you want to use consecutive frames, please click the "+" button first, move the cursor to the "Frame Operation" box for positioning, and then enter the number of frames that need to be continuously captured. Because MMD cannot operate in the background memory and can only accept real physical key inputs, it will display the coordinate values of X and Y after being set.
+
+10. Save button
+After setting it up, you can save the picture now! At this point, the system input method will automatically switch to the English input method. If there is no switch, please switch the input method to the English keyboard state by yourself. If it is a Windows 10 system, please press Alt+Shift/Win+Space to switch to "UK Keyboard/US Keyboard", ensuring that the input method is an English keyboard, so that there will be no interference or accidental touch when saving.
+After pressing the save button, the program will automatically operate. During this period, please be patient and wait for the image to be saved. There will be a log output below.
+
+11. Pause button
+This is a feature used when using consecutive frames, which can forcibly pause the task midway.
+
+12. Image compression
+This is the setting for compressing images simultaneously, as the original images are relatively large. If necessary, image compression can be enabled.
+Basically, it's easy to understand just by looking at the name.
+The compression quality of JPG/Webp/Avif is usually in the range of 1-100, and the smaller the value, the smaller the compression. It is generally recommended to set it in the range of 75-95.
+The compression level of PNG is also similar, with a maximum compression level of 9, and the smaller the value, the smaller the compression.
+Turn on 'Image Size' to adjust the image size, measured in px pixels, with values of width and height.Example: 1920x1080.</value>
+    <comment>提示内容</comment>
+  </data>
+  <data name="TabPage4Text" xml:space="preserve">
+    <value>Image settings</value>
+    <comment>图片压缩设置</comment>
+  </data>
+  <data name="TabPage5Text" xml:space="preserve">
+    <value>Image adjustment</value>
+    <comment>图片压缩调整</comment>
+  </data>
+  <data name="Compressing" xml:space="preserve">
+    <value>Compressing:{0} → {1}</value>
+    <comment>正在压缩图片</comment>
+  </data>
+  <data name="CompressDone" xml:space="preserve">
+    <value>Image compression complete:{0}</value>
+    <comment>图片压缩完成</comment>
+  </data>
+  <data name="EnableImageCompressText" xml:space="preserve">
+    <value>Enable image compression</value>
+    <comment>开启图片压缩</comment>
+  </data>
+  <data name="FilenamesuffixText" xml:space="preserve">
+    <value>FileSuffix</value>
+    <comment>文件名后缀</comment>
+  </data>
+  <data name="ConvertFormatLIST" xml:space="preserve">
+    <value>format</value>
+    <comment>转换格式</comment>
+  </data>
+  <data name="ImageCompressPathText" xml:space="preserve">
+    <value>Path</value>
+    <comment>图片压缩-输出路径</comment>
+  </data>
+  <data name="ImageCompressOutPathButtonText" xml:space="preserve">
+    <value>Open</value>
+    <comment>图片压缩-输出路径浏览按钮</comment>
+  </data>
+  <data name="SourceDirectoryText" xml:space="preserve">
+    <value>Source Path</value>
+    <comment>源目录</comment>
+  </data>
+  <data name="DeleteSourceFilesText" xml:space="preserve">
+    <value>Deleting source files</value>
+    <comment>删除源文件</comment>
+  </data>
+  <data name="JPGQualityText" xml:space="preserve">
+    <value>JPG/Webp/Avif Compression quality</value>
+    <comment>JPG/Webp/Avif压缩质量</comment>
+  </data>
+  <data name="PNGQualityText" xml:space="preserve">
+    <value>PNG level</value>
+    <comment>PNG压缩级别</comment>
+  </data>
+  <data name="ImageSizeText" xml:space="preserve">
+    <value>ImageSize</value>
+    <comment>图片尺寸</comment>
+  </data>
+  <data name="SwitchEnglishKeyboardFail" xml:space="preserve">
+    <value>Cannot switch to English input method automatically, please switch manually.</value>
+    <comment>切换英文输入法</comment>
+  </data>
+  <data name="EnglishInputMethodText" xml:space="preserve">
+    <value>The software needs to be used with English input method.</value>
+    <comment>该软件需在英文输入法状态下使用</comment>
+  </data>
+  <data name="PromptGetLocation" xml:space="preserve">
+    <value>Please get the screen position at the "+" before saving!</value>
+    <comment>获取坐标提示</comment>
+  </data>
+  <data name="PromptInputFrameRange" xml:space="preserve">
+    <value>Please enter the frame rate range before saving!</value>
+    <comment>输入帧范围提醒</comment>
+  </data>
+  <data name="invalidkey" xml:space="preserve">
+    <value>The shortcut key setting is invalid. Please re-enter.</value>
+    <comment>快捷键设置无效</comment>
+  </data>
+  <data name="Keyregistered" xml:space="preserve">
+    <value>Hotkeys registered</value>
+    <comment>热键已注册</comment>
+  </data>
+  <data name="Registrationfail" xml:space="preserve">
+    <value>Hotkey registration failed and may have been taken by another program.</value>
+    <comment>热键注册失败</comment>
+  </data>
+  <data name="NewKey" xml:space="preserve">
+    <value>Please enter key</value>
+    <comment>请输入按键</comment>
+  </data>
+</root>

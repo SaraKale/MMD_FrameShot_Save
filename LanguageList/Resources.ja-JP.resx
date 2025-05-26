@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FrameRangeText" xml:space="preserve">
+    <value>範囲</value>
+  </data>
+  <data name="FrameRangeTipText" xml:space="preserve">
+    <value>連続したフレームを使いたい場合は、フレームを入力する前に+で座標を取得してください。</value>
+  </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>多言語</value>
+  </data>
+  <data name="ResolutionTipText" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="ShortcutKeysText" xml:space="preserve">
+    <value>ボタン</value>
+  </data>
+  <data name="SingleFrameText" xml:space="preserve">
+    <value>単一保存</value>
+  </data>
+  <data name="DelayTimeText" xml:space="preserve">
+    <value>待ち時間</value>
+  </data>
+  <data name="FileNameText" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="FinalSaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="FrameClearText" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="ImageTypeText" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="OutPathButtonText" xml:space="preserve">
+    <value>開ける</value>
+  </data>
+  <data name="OutPutText" xml:space="preserve">
+    <value>出力パス</value>
+  </data>
+  <data name="SaveAfterFolderText" xml:space="preserve">
+    <value>フォルダを保存して開く</value>
+  </data>
+  <data name="TabPage1Text" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="TabPage2Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>MMD画像保存ツールです</value>
+  </data>
+  <data name="MMDNotrunning" xml:space="preserve">
+    <value>MMDが起動しない</value>
+  </data>
+  <data name="CurrentFrameViewText" xml:space="preserve">
+    <value>現在のフレーム：{0}</value>
+  </data>
+  <data name="ReadFail" xml:space="preserve">
+    <value>読み込み失敗</value>
+  </data>
+  <data name="HotkeyConflictMsg" xml:space="preserve">
+    <value>このキーはMMDメニューと競合するので、他のキーを交換してください。</value>
+  </data>
+  <data name="HotkeyConflictTitle" xml:space="preserve">
+    <value>ショートカットキーの衝突</value>
+  </data>
+  <data name="EnsurePathPrefixType" xml:space="preserve">
+    <value>パス、ファイル名の接頭辞、画像フォーマットが選択されていることを確認してください！</value>
+  </data>
+  <data name="PathEmpty" xml:space="preserve">
+    <value>エクスポートパスが空です。まずエクスポートパスを選択してください！</value>
+  </data>
+  <data name="LogSaving" xml:space="preserve">
+    <value>保存中です：{0}</value>
+  </data>
+  <data name="LogSaveSuccess" xml:space="preserve">
+    <value>ファイルの保存に成功！</value>
+  </data>
+  <data name="LogSavePath" xml:space="preserve">
+    <value>ファイルの保存場所は：{0}</value>
+  </data>
+  <data name="LogSaveFail" xml:space="preserve">
+    <value>ファイルが正常に保存されませんでした。入力に失敗したか、パスが間違っているのかもしれません。</value>
+  </data>
+  <data name="LogNoFrame" xml:space="preserve">
+    <value>現在のフレーム番号の取得に失敗したため、フレーム番号を無視して保存する。</value>
+  </data>
+  <data name="StopSaveButtonText" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="TopMostText" xml:space="preserve">
+    <value>ウィンドウを最前面に表示</value>
+  </data>
+  <data name="TopMostTipText" xml:space="preserve">
+    <value>ウィンドウを最前面に表示</value>
+  </data>
+  <data name="LogKillProcessException" xml:space="preserve">
+    <value>プロセス終了時の異常：{0}</value>
+  </data>
+  <data name="TabPage3Text" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="PromptContentText" xml:space="preserve">
+    <value>MMD FrameShot Save
+by:SaraKale
+
+これはMMDに画像をすばやく保存するためのガジェットで、手動で画像を保存する手間を省くことができます。
+
+OS要件：Windows 7 SP 1以降
+
+主な特徴：
+1、真実シミュレーションボタンは画像を保存し、ショートカットキーバインドを配置することができる。
+2、カスタムファイル名、ピクチャファイルタイプ、エクスポートパス、および追加のピクチャ圧縮処理を構成できます。
+3、連続フレーム範囲を設定して複数のピクチャを保存することができます。
+4、プログラム多言語インタフェースの切り替え。
+
+1、MMD FrameShot Save.exeプログラムを直接実行すればよい。
+注意：MikuMikuDance 9.26以上のバージョンのみサポートされており、下位バージョンはサポートされていません。
+MikuMikuDanceには32ビットと64ビットの区分があります。対応するバージョンを選択してください。
+x32/MMD FrameShot Save _ x32.exe 対応 MikuMikuDance x86/x32bit プログラム
+x64/MMD FrameShot Save _ x64.exe 対応 MikuMikuDance x64bit プログラム
+自分のMMDがどのプラットフォームかを調べるには、システムのタスクバーでマウスの右ボタンをクリックし、タスクマネージャーを開きます。「詳細」タブをクリックし、列見出しを右クリックして「列の選択」を選択します。「プラットフォーム」にチェックを入れれば、プラットフォームが表示されます。MikuMikuDanceのプロセスを探し、対応するプラットフォームを確認してください。
+
+2、デフォルトはEnglish言語で、右上でLanguageを選択すると好きな言語に切り替えることができます。
+右側には「↑」セットトップボタンがあり、最初の起動プログラムのデフォルトは自動セットトップで、青色が常に点灯している状態で、ボタンを手動でクリックしてセットトップを取り消すことができます。
+
+3、この時、MikuMikuDanceウィンドウの現在の解像度と現在のフレーム数が読み込まれます。数値がなければ大丈夫です。参考までに。画像のみの書き出しでは、フレーム番号は含まれません。
+
+4、まず「設定」タブ・ページでファイル名接頭辞、ファイル・タイプ、エクスポート・パスを設定してください。
+設定が完了するとプログラムディレクトリにconfig.iniプロファイルが生成され、自動的に設定が記録され、次にプログラムを開くと保存されている設定が読み込まれます。
+ファイル名は次の形式です。
+[ファイルプレフィックス]_[フレーム数]_[日時]_[シーケンス番号].[拡張子]
+例：
+Camera_frame01_20250101_001.png
+MMDがエクスポートをサポートするファイルのタイプは、次のとおりです。
+bmp、jpg、png、dds、dib、pfm、hdr
+
+5、保存待ち時間は毎回保存した後の待ち時間で、5000 ms以上を設定することを提案して、MMDは画像を保存するのが遅いので、あなたの機械の運行速度によって適度に調整することができます。
+時間は次のように換算されます。
+1000ms = 1s
+5000ms = 5s
+60000ms = 60s
+さらにMMDの時間軸は最大30,000フレーム（約1時間40分、30 FPSで計算）に設定することができる。
+
+6、ショートカットキー
+ショートカットキーはカスタマイズでき、Ctrl/Alt/Shift+文字/機能キーなどだけをサポートし、MMDメニューバーの既存のショートカットキーと競合しないように注意し、競合があれば他のキーを交換することができます。
+これはMMDが既に存在するキーです：
+Alt+F、Alt+D、Alt+V、Alt+B、Alt+M、Alt+P、Alt+K、Alt+H
+
+7、保存後にフォルダを自動的に開く：
+保存に成功すると、エクスポートされたフォルダが自動的に開きます。
+
+8、単一フレームのみ保存
+チェックすると連続フレーム機能がオフになり、一次ピクチャの保存としてのみ使用されます。
+
+9、連続フレーム
+これは、開始フレームから終了フレームまでの範囲を設定できるフレーム設定です。連続フレームを使用する場合は、最初に「+」ボタンをクリックし、カーソルを【フレーム操作】ボックス内に移動して位置決めし、連続傍受が必要なフレーム数を入力します。MMDはバックグラウンドメモリで操作できないので、実際の物理キー入力を受け入れるしかなく、設定するとXとYの座標値が表示されます。
+
+10、保存ボタン
+設定したら画像を保存できます！この場合はシステム入力方式を自動的に英語入力方式に切り替えますが、切り替えていない場合は、自分で入力方式を英語キーボード状態に切り替えてください。Window 10システムの場合は、Alt+Shift/Win+Space（スペース）キーを押して「英国キーボード（UK）/米国キーボード（US）」に切り替えて、入力方式が英語キーボードであることを確認してください。そうすれば、保存に支障がなく誤タッチできます。
+保存ボタンを押すとプログラムが自動的に操作されますので、その間に画像が保存されるのを辛抱強く待ってください。下にログが出力されます。
+
+11、一時停止ボタン
+これは、連続フレームを使用する際に使用される機能で、途中でタスクを強制的に一時停止することができます。
+
+12、画像圧縮
+ここでは、元の画像が大きいので、必要に応じて画像圧縮をオンにすることができるため、同時に画像を圧縮することができる設定です。
+基本的に名称を見るとわかりやすいです。
+JPG/Web/Avif圧縮品質は通常1～100区間であり、数値が小さいほど圧縮が小さくなるため、75～95区間を設定することが推奨されています。
+PNG圧縮レベルも同様で、最大圧縮レベルは9で、数値が小さいほど圧縮は小さくなります。
+「ピクチャサイズ」をオンにすると、ピクセルのpx単位で画像のサイズを変更できます。値はそれぞれ幅と高さです。例えば、1920×1080。</value>
+  </data>
+  <data name="TabPage4Text" xml:space="preserve">
+    <value>画像圧縮設定</value>
+  </data>
+  <data name="TabPage5Text" xml:space="preserve">
+    <value>画像圧縮調整</value>
+  </data>
+  <data name="Compressing" xml:space="preserve">
+    <value>圧縮中です:{0} → {1}</value>
+  </data>
+  <data name="CompressDone" xml:space="preserve">
+    <value>画像圧縮完了：{0}</value>
+  </data>
+  <data name="EnableImageCompressText" xml:space="preserve">
+    <value>画像圧縮の開始</value>
+  </data>
+  <data name="FilenamesuffixText" xml:space="preserve">
+    <value>接尾辞</value>
+  </data>
+  <data name="ConvertFormatLIST" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="ImageCompressPathText" xml:space="preserve">
+    <value>出力パス</value>
+  </data>
+  <data name="ImageCompressOutPathButtonText" xml:space="preserve">
+    <value>開ける</value>
+  </data>
+  <data name="SourceDirectoryText" xml:space="preserve">
+    <value>ソースパス</value>
+  </data>
+  <data name="DeleteSourceFilesText" xml:space="preserve">
+    <value>ソースファイルの削除</value>
+  </data>
+  <data name="JPGQualityText" xml:space="preserve">
+    <value>JPG/Webp/Avif圧縮品質</value>
+  </data>
+  <data name="PNGQualityText" xml:space="preserve">
+    <value>PNG圧縮レベル</value>
+  </data>
+  <data name="ImageSizeText" xml:space="preserve">
+    <value>画像サイズ</value>
+  </data>
+  <data name="SwitchEnglishKeyboardFail" xml:space="preserve">
+    <value>英語入力方法に自動的に切り替えることができません。手動で切り替えてください。</value>
+  </data>
+  <data name="EnglishInputMethodText" xml:space="preserve">
+    <value>本ソフトウェアは、英語入力モードで使用してください。</value>
+  </data>
+  <data name="PromptGetLocation" xml:space="preserve">
+    <value>「＋」の位置でスクリーンショットを取得してから保存してください。</value>
+  </data>
+  <data name="PromptInputFrameRange" xml:space="preserve">
+    <value>保存する前にフレーム範囲を入力してください！</value>
+  </data>
+  <data name="invalidkey" xml:space="preserve">
+    <value>ショートカットキーの設定が無効です。再度入力してください。</value>
+  </data>
+  <data name="Keyregistered" xml:space="preserve">
+    <value>ホットキーの成功</value>
+  </data>
+  <data name="Registrationfail" xml:space="preserve">
+    <value>ホットキーの登録に失敗しました。他のプログラムによって既に使用されている可能性があります。</value>
+  </data>
+  <data name="NewKey" xml:space="preserve">
+    <value>新規ボタン</value>
+  </data>
+</root>

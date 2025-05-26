@@ -1,0 +1,34 @@
+How to compile:
+Use Script \ AutoHotkey_2.0.19 \ Ahk2Exe.exe to open the. ahk file and compile it.
+Alternatively, double-click to run batchCompile.bat.
+
+SingleSave.ahk - Used for single frame scripting
+FrameRange_stave.ahk - Script for continuous frames
+
+--------------------------------------
+
+如何编译：
+使用 Script\AutoHotkey_2.0.19\Ahk2Exe.exe 打开 .ahk 文件编译即可。
+或者双击运行 batchCompile.bat 即可。
+
+SingleSave.ahk - 用于单帧脚本
+FrameRange_save.ahk - 用于连续帧的脚本
+
+--------------------------------------
+
+如何編譯：
+使用 Script\AutoHotkey_2.0.19\Ahk2Exe.exe 打開 .ahk 文件編譯即可。
+或者雙擊運行 batchCompile.bat 即可。
+
+SingleSave.ahk - 用於單幀腳本
+FrameRange_save.ahk - 用於連續幀的腳本
+
+--------------------------------------
+
+コンパイル方法：
+Script  AutoHotkey _ 2.0.19  Ahk 2 Exe.exeを使用して開く.ahkファイルをコンパイルします。
+
+またはbatchCompile.batをダブルクリックして実行します。
+
+SingleSave.ahk-単一フレームスクリプト用
+FrameRange _ save.ahk-連続フレーム用のスクリプト
