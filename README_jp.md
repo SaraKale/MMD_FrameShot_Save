@@ -41,7 +41,7 @@ bilibili：https://www.bilibili.com/video/BV1XKj7zFEPN/
 |   Github   | [releases](https://github.com/SaraKale/MMD_FrameShot_Save/releases) |
 |   Gitee    | [releases](https://gitee.com/sarakale/MMD_FrameShot_Save/releases)  |
 |  bowlroll  |                   [リンク](https://bowlroll.net/file/336692)                   |
-| aplaybox |        [リンク]()         |
+| aplaybox |        [リンク](https://www.aplaybox.com/details/model/GFMFCDPvlKwf)         |
 | lanzouu  |            [リンク](https://wwiu.lanzouu.com/b0raa15wb) パスワード:dqhm            |
 
 ## 動作環境

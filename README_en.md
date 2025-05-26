@@ -41,7 +41,7 @@ Choose any download node below.
 |  Github  | [releases](https://github.com/SaraKale/MMD_FrameShot_Save/releases) |
 |  Gitee   | [releases](https://gitee.com/sarakale/MMD_FrameShot_Save/releases)  |
 | bowlroll |                  [Link](https://bowlroll.net/file/336692)                  |
-| aplaybox |        [Link]()         |
+| aplaybox |        [Link](https://www.aplaybox.com/details/model/GFMFCDPvlKwf)         |
 | lanzouu  |            [Link](https://wwiu.lanzouu.com/b0raa15wb) Password:dqhm            |
 
 ## System Requirements

@@ -42,7 +42,7 @@ bilibili：https://www.bilibili.com/video/BV1XKj7zFEPN/
 |  Github  | [releases](https://github.com/SaraKale/MMD_FrameShot_Save/releases) |
 |  Gitee   | [releases](https://gitee.com/sarakale/MMD_FrameShot_Save/releases)  |
 | bowlroll |                  [链接](https://bowlroll.net/file/336692)                  |
-| aplaybox |        [链接]()         |
+| aplaybox |        [链接](https://www.aplaybox.com/details/model/GFMFCDPvlKwf)         |
 | lanzouu  |            [链接](https://wwiu.lanzouu.com/b0raa15wb) 密码:dqhm            |
 
 ## 运行环境
