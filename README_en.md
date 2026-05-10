@@ -174,4 +174,4 @@ A: Temporary solution - use the Save button instead.
 
 ## License
 
-[MIT License](LICENSE)
+[CC BY-NC-SA 4.0](LICENSE)

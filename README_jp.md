@@ -174,4 +174,4 @@ A：一時的な解決策 - 保存ボタンを使用してください
 
 ## ライセンス
 
-[MIT License](LICENSE)
+[CC BY-NC-SA 4.0](LICENSE)

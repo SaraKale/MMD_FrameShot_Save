@@ -178,4 +178,4 @@ A：暫時無法解決，請臨時用保存按鈕吧。
 
 ## 許可證
 
-使用 [MIT License](LICENSE) 許可證
+使用 [CC BY-NC-SA 4.0](LICENSE) 許可證
